@@ -18,8 +18,8 @@
   "email": {
     "title": "E-mail",
     "current": "E-mail atual",
-    "pending": "Alteração para {email} está pendente — verifique essa caixa de entrada para um link de confirmação.",
-    "pending_note": "Seu e-mail atual permanece ativo até você confirmar.",
+    "pending": "Aguardando confirmação para {email} — acesse essa caixa de entrada e clique no link enviado.",
+    "pending_note": "Seu e-mail atual continua ativo até você confirmar.",
     "cancelling": "Cancelando…",
     "cancel_pending": "Cancelar alteração pendente",
     "cancelled": "Alteração de e-mail pendente cancelada.",
@@ -81,7 +81,7 @@
     "registering": "Registrando…",
     "add": "Adicionar chave de acesso",
     "added_message": "Chave de acesso adicionada com sucesso",
-    "cancelled": "Registro de chave de acesso foi cancelado",
+    "cancelled": "Registro de chave de acesso cancelado",
     "error_add": "Falha ao adicionar chave de acesso"
   }
 }

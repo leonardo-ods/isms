@@ -491,7 +491,7 @@
     "all_statuses": "Todos os status",
     "all_types": "Todos os tipos",
     "all_levels": "Todos os níveis",
-    "all_criticality": "Todas as criticalidades",
+    "all_criticality": "Todas as criticidades",
     "all_categories": "Todas as categorias",
     "all_severities": "Todas as severidades",
     "all_priorities": "Todas as prioridades",
@@ -520,7 +520,7 @@
     "approved_prefix": "Aprovado:"
   },
   "read_only": {
-    "actions": "Somente leitura — ações requerem função de gestor ou administrador."
+    "actions": "Somente leitura — você precisa ser gestor ou administrador para fazer alterações."
   },
   "review": {
     "last": "Última revisão: {date}",

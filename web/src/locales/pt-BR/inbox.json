@@ -1,6 +1,6 @@
 {
   "title": "Caixa de Entrada",
-  "subtitle": "{count} item de ação aguardando atenção | {count} itens de ação aguardando atenção",
+  "subtitle": "{count} pendência aguardando atenção | {count} pendências aguardando atenção",
   "mark_all_read": "Marcar tudo como lido",
   "tab": {
     "comments": "Comentários",
@@ -125,7 +125,7 @@
   },
   "error": {
     "resolve_comment": "Falha ao resolver comentário: {message}",
-    "mark_all_read": "Falha ao marcar todas as notificações como lidas: {message}",
+    "mark_all_read": "Falha ao marcar tudo como lido: {message}",
     "approve_review": "Falha ao aprovar revisão: {message}",
     "request_changes": "Falha ao solicitar alterações: {message}",
     "forward_review": "Falha ao encaminhar revisão: {message}",

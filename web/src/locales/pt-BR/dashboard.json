@@ -1,10 +1,10 @@
 {
   "loading": "Carregando painel…",
   "title": "Visão Geral",
-  "subtitle": "Visão geral de conformidade e implementação do SGSI ISO 27001",
+  "subtitle": "Conformidade e implementação do SGSI ISO 27001",
   "org_picker": {
-    "title": "Selecionar uma organização",
-    "subtitle": "Escolha em qual organização trabalhar.",
+    "title": "Selecione uma organização",
+    "subtitle": "Escolha em qual organização você quer trabalhar.",
     "create_toggle": "+ Criar nova organização"
   },
   "no_org": {
@@ -46,14 +46,14 @@
     }
   },
   "attention": {
-    "title": "Precisa de Atenção",
+    "title": "Requer Atenção",
     "reviews": {
       "title": "Revisões abertas",
       "detail": "{count} revisão aguardando resposta | {count} revisões aguardando resposta"
     },
     "risks": {
       "title": "Riscos altos e críticos",
-      "detail": "{count} risco requerendo tratamento ou escalada | {count} riscos requerendo tratamento ou escalada"
+      "detail": "{count} risco que precisa de tratamento ou escalada | {count} riscos que precisam de tratamento ou escalada"
     },
     "overdue_documents": {
       "title": "Documentos atrasados",
@@ -61,7 +61,7 @@
     },
     "incidents": {
       "title": "Incidentes abertos",
-      "detail": "{count} incidente precisa de investigação | {count} incidentes precisam de investigação"
+      "detail": "{count} incidente aguardando investigação | {count} incidentes aguardando investigação"
     },
     "changes": {
       "title": "Mudanças aguardando aprovação",
@@ -106,7 +106,7 @@
   },
   "activity": {
     "title": "Atividade Recente",
-    "empty": "A atividade aparecerá conforme a equipe trabalha"
+    "empty": "A atividade vai aparecer conforme a equipe trabalha"
   },
   "error": {
     "create_org": "Falha ao criar organização",
