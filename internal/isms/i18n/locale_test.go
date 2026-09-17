@@ -266,6 +266,7 @@ func TestOnlyEnabledLocalesAreOffered(t *testing.T) {
 	want := []Locale{
 		{Tag: "en", Name: "English"},
 		{Tag: "id-ID", Name: "Bahasa Indonesia"},
+		{Tag: "pt-BR", Name: "Português (Brasil)"},
 	}
 	got := Supported()
 	if len(got) != len(want) {

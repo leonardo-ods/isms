@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "docs": "Docs",
+    "sign_in": "Entrar"
+  },
+  "hero": {
+    "badge": "Código aberto · Apache 2.0",
+    "title_line1": "O Sistema de Gestão",
+    "title_line2": "Inteligente",
+    "subtitle": "Documentos vivos, revisões rastreadas e cadência operacional em uma plataforma auditável. Escolha um framework ou traga o seu. IA ajuda no trabalho. Humanos permanecem no controle.",
+    "cta_cloud": "Começar na nuvem",
+    "cta_selfhost": "Auto-hospedado",
+    "cta_docs": "Ler a documentação"
+  },
+  "why": {
+    "heading": "Por que mais um sistema de gestão?",
+    "p1": "Porque os que temos são complexos, opacos e tratados como um exercício de conformidade — relevantes para a auditoria, irrelevantes no dia seguinte. E as apostas continuam aumentando: à medida que a adoção de IA se acelera e as superfícies de ameaça se ampliam, um sistema de gestão que não se mantém vivo é pior do que inútil.",
+    "p2": "Não precisa ser assim. Segurança feita corretamente começa na raiz — compreendendo e gerenciando genuinamente seus riscos, não mascarando-os. Construído com IA como prioridade, com disciplina real em como foi projetado e utilizado, um sistema de gestão deve ser parte viva de como você opera, não um fardo bolsado por cima.",
+    "p3": "É por isso que é código aberto — construído para organizações de todos os tamanhos e, finalmente, uma opção credível para as menores, que nunca tiveram um sistema de gestão simples, que se mantém atualizado e que não luta contra elas. Construímos isso para mudar esse cenário."
+  },
+  "pillars": {
+    "documents_title": "Documentos são ativos operacionais",
+    "documents_desc": "Políticas vivem em git como markdown. Cada edição é um commit. Cada versão é recuperável. Documentos conduzem o seu SGSI, não ficam guardados em uma pasta.",
+    "reviews_title": "Revisões são decisões rastreadas",
+    "reviews_desc": "Análise crítica por rodadas com comentários inline. Aprovar, solicitar alterações ou propor uma revisão. Cada decisão é um registro imutável com hash SHA-256.",
+    "tasks_title": "Tarefas conduzem o ano",
+    "tasks_desc": "O plano anual distribui revisões, auditorias e avaliações de risco ao longo do calendário. O painel mostra o que precisa de atenção neste mês. Seu SGSI nunca fica desatualizado."
+  },
+  "how": {
+    "heading": "Cinco minutos, não cinco reuniões",
+    "subtitle": "Do evento à política atualizada ao documento aprovado. A plataforma cuida do trabalho burocrático.",
+    "step1_title": "Algo acontece",
+    "step1_desc": "Um incidente, um novo fornecedor, uma mudança regulatória, uma constatação de auditoria. Qualquer evento que afete sua postura de segurança.",
+    "step2_title": "Criar ou atualizar",
+    "step2_desc": "Registre no módulo correto. A IA pode sugerir atualizações de risco, alterações de política e ações corretivas. Você revisa cada sugestão.",
+    "step3_title": "Documentos atualizam em uma branch",
+    "step3_desc": "As alterações de política chegam em uma branch de revisão com diff completo. Sem edições misteriosas. Cinco documentos em cinco minutos.",
+    "step4_title": "Rodadas de revisão",
+    "step4_desc": "Revisores são notificados. Aprove ou solicite alterações. Após edições, reenvie como uma nova rodada. Cada rodada mostra apenas o que mudou desde o último feedback.",
+    "step5_title": "Publicar",
+    "step5_desc": "Mesclar para main. Versão incrementada. Registro de decisão criado. Evidência armazenada. Concluído."
+  },
+  "features": {
+    "heading": "Construído diferente",
+    "subtitle": "Não é um editor de documentos com plugins de conformidade. É um sistema de gestão construído para esse propósito, onde tudo se conecta.",
+    "git_title": "Documentos nativos em git",
+    "git_desc": "Políticas são arquivos markdown em um repositório git. Cada alteração é um commit com diff completo. Branch para revisar, mesclar para publicar. Sem formatos proprietários, sem aprisionamento.",
+    "review_title": "Análise crítica por rodadas",
+    "review_desc": "Envie um documento para revisão. Revisores aprovam, solicitam alterações ou propõem uma revisão com comentários inline. Reenvie como nova rodada — revisores veem apenas o que mudou.",
+    "registers_title": "Registros que se conectam",
+    "registers_desc": "Riscos vinculados a ativos e controles. Incidentes criam ações corretivas. Requisitos legais vinculados a políticas. Altere uma coisa, veja o impacto em todo lugar.",
+    "ai_title": "IA sugere, você aprova",
+    "ai_desc": "Agentes de IA redigem políticas, avaliam riscos e propõem atualizações de registros pelo mesmo fluxo de revisão. Servidor MCP com 22 ferramentas. Identidade de agente completa e trilha de auditoria. Não é piloto automático — é um assistente capaz.",
+    "cadence_title": "Plano anual e cadência",
+    "cadence_desc": "O painel mostra o que precisa de atenção neste mês. Distribua revisões, auditorias e avaliações de risco ao longo do ano. Tarefas rastreiam a execução. Seu SGSI se mantém vivo.",
+    "audit_title": "Pronto para auditoria desde o primeiro dia",
+    "audit_desc": "Cada aprovação de revisão e publicação de documento cria um registro de decisão imutável com hash SHA-256 do conteúdo. Com carimbo de tempo, atribuível, criptograficamente verificável."
+  },
+  "frameworks": {
+    "heading": "Qualquer framework. Seus modelos.",
+    "subtitle": "11 frameworks integrados. Ou traga seus próprios modelos — uma pasta de arquivos markdown é tudo que é necessário. Execute múltiplos padrões na mesma plataforma."
+  },
+  "deploy": {
+    "cloud_title": "Nuvem gerenciada",
+    "cloud_desc": "Cadastre-se, escolha seu framework, comece a trabalhar. Cuidamos da infraestrutura, backups e atualizações. Multi-tenant com isolamento de dados por linha.",
+    "cloud_cta": "Começar grátis",
+    "cloud_cta_signin": "Entrar",
+    "selfhost_title": "Auto-hospedado",
+    "selfhost_desc": "Um binário Go. PostgreSQL e um diretório de dados. Implante em qualquer lugar — sua infraestrutura, seus dados. Apache 2.0, sem limites artificiais, sem truques de open-core.",
+    "selfhost_cta": "Ver no GitHub"
+  },
+  "cta": {
+    "heading": "Seu auditor vai agradecer",
+    "subtitle": "Histórico de versões completo. Registros de aprovação imutáveis. Decisões criptograficamente verificáveis. Trilha de auditoria completa desde o primeiro dia."
+  },
+  "footer": {
+    "powered_by": "Desenvolvido com {link}"
+  }
+}
