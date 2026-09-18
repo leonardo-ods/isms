@@ -17,7 +17,7 @@
     "classification_label": "Classificação",
     "criticality_label": "Criticalidade",
     "supplier_label": "Fornecedor",
-    "fill_in_later": "Você pode adicionar classificação CIA, RPO/RTO e responsável após a criação.",
+    "fill_in_later": "Você pode adicionar classificação CID, RPO/RTO e responsável após a criação.",
     "submit": "Adicionar"
   },
   "filter": {

@@ -15,7 +15,7 @@
     "name_placeholder": "ex.: AWS, Office 365",
     "type_label": "Tipo",
     "criticality_label": "Criticalidade",
-    "fill_in_later": "Você pode adicionar classificação CIA, responsável e detalhes contratuais após a criação.",
+    "fill_in_later": "Você pode adicionar classificação CID, responsável e detalhes contratuais após a criação.",
     "submit": "Adicionar"
   },
   "filter": {

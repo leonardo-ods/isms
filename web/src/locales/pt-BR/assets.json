@@ -15,14 +15,14 @@
     "name_placeholder": "ex.: Banco de Dados de Produção, Portal do Cliente",
     "type_label": "Tipo",
     "deselect_hint": "Clique para desmarcar",
-    "fill_in_later": "Você pode adicionar classificação CIA, responsável e mais após a criação.",
+    "fill_in_later": "Você pode adicionar classificação CID, responsável e mais após a criação.",
     "submit": "Adicionar"
   },
   "filter": {
     "empty": "Nenhum ativo encontrado"
   },
   "stat": {
-    "severe": "Severo (CIA = 5)"
+    "severe": "Severo (CID = 5)"
   },
   "table": {
     "header": {
