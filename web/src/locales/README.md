@@ -326,7 +326,28 @@ The Brazilian adoption uses **análise crítica** for the management-system mean
 
 **Security-management vocabulary.** The locale uses the Brazilian Portuguese terminology established by the Brazilian adoption of ABNT NBR ISO/IEC 27001:2022, including **segurança da informação**, **sistema de gestão da segurança da informação**, **política de segurança da informação**, **objetivos da segurança da informação**, **avaliação de riscos de segurança da informação**, **tratamento de riscos da segurança da informação**, **informação documentada**, **partes interessadas**, **Alta Direção**, and **controles de segurança da informação**. Terms are kept aligned with the wording used in the Brazilian standard rather than translated independently from the English.
 
-**CIA terms.** For confidentiality, integrity, and availability, the Brazilian Portuguese terms are **confidencialidade**, **integridade**, and **disponibilidade**. In Brazil, these principles are universally referred to as the **CID triad** (*tríade CID*), using the Portuguese initials. The `pt-BR` locale therefore localizes badge codes and table headers consistently to the **CID** form (`common.cia_abbr.a` is "D", `readings.table.availability` is "D", and `table.cia` headers are "C/I/D").
+**CIA terms.** For confidentiality, integrity, and availability, the Brazilian Portuguese terms are **confidencialidade**, **integridade**, and **disponibilidade**. In Brazil, these principles are universally referred to as the **CID triad** (*tríade CID*), using the Portuguese initials. The `pt-BR` locale therefore localizes badge codes and table headers consistently to the **CID** form:
+
+| Key | en | pt-BR | Rationale |
+|---|---|---|---|
+| `common.cia_abbr.a` | `A` | `D` | Initial of *disponibilidade* |
+| `components.readings.table.availability` | `A` | `D` | Same chip, same rule |
+| `*.table.cia` (risks, assets, systems, suppliers) | `C/I/A` | `C/I/D` | Header follows the triad |
+
+Unlike Indonesian (K/I/K collision), the CID triad has no initial collision, so localization is both possible and the established practice in Brazilian security literature.
+
+**Likelihood column code.** The readings table column for likelihood (`components.readings.table.likelihood`) is localized to `"P"` (*Probabilidade*), following the same rationale as the CID codes: "P" is the single-character form Brazilian risk practitioners expect in a narrow column header, and it does not collide with any other column initial in the same table (C, I, D, Imp).
+
+**Finding-type abbreviations.** `common.enum_abbr.finding_type` and `common.enum_abbr.audit_result` are fully localized:
+
+| Key | en | pt-BR | Rationale |
+|---|---|---|---|
+| `finding_type.opportunity` | `OFI` | `OM` | *Oportunidade de Melhoria* — the established Brazilian audit abbreviation |
+| `finding_type.major_nc` | `Major NC` | `NC Maior` | Word-order follows Brazilian usage (*Não Conformidade Maior*) |
+| `finding_type.minor_nc` | `Minor NC` | `NC Menor` | Same rule |
+
+**"N/A" format.** The `common.cia.na` field uses `"N/A"` to represent *Não Aplicável* (Not Applicable) in Brazilian Portuguese. The most common alternative in translations is "N/D" (*Não Disponível*) which was considered but discarded. In compliance contexts, *Não Aplicável* indicates that the control does not apply to the record, whereas *Não Disponível* indicates that the expected evidence is unavailable or was not found. The latter situation may, therefore, indicate a control failure and result in the recording of a non-conformity.
+
 
 Privacy and data protection terms follow Brazil's Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018), rather than an ISO adoption:
 

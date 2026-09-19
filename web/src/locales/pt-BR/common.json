@@ -539,7 +539,7 @@
     "moderate": "Moderado",
     "major": "Maior",
     "severe": "Severo",
-    "na": "N/D"
+    "na": "N/A"
   },
   "enum_abbr": {
     "finding_type": {
